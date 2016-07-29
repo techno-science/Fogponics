@@ -21,7 +21,7 @@ See these pages for how to install these libraries and for documentation.
 
 The *fogponics.sh* shell script will run the system from the command-line. It can also be run from rc.local.
 
-# Running the Browser
+## Running the Browser
 
 This is taken from [this tutorial](https://github.com/elalemanyo/raspberry-pi-kiosk-screen). See it for instructions for more browsers 
 
