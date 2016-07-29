@@ -69,4 +69,4 @@ The *template* and the *static* folders under server hold the web site that disp
 
 # Connection up the parts
 
-Use the *Fogponics.fzz* for a diagram and schematic of the circuit.
+Use the *Fogponics.fzz* in the docs folder for a diagram and schematic of the circuit.
