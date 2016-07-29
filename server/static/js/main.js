@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 // Uncomment to turn off all console messages
-// console.log = function() {}
+console.log = function() {}
 
 // Websocket
 var ws = new ReconnectingWebSocket("ws://127.0.0.1:9998");
@@ -21,17 +21,9 @@ ws.onmessage = function (message) {
 
     var incoming = JSON.parse(message.data);
 
-//     console.log(incoming);
+    console.log(incoming);
 
     addr_to = incoming[0].to
-
-    if (addr_to == "gpio") {
-
-    }
-
-    if (addr_to == "ph") {
-        $('#ph span').html(incoming[1]);
-    }
 
     if (addr_to == "temp_humid") {
         $('#temp span').html(incoming[1]);
@@ -45,13 +37,10 @@ ws.onmessage = function (message) {
 };
 
 
-
 var sendMessage = function(message) {
     console.log("sending:" + message.data);
     ws.send(message.data);
 };
-
-
 
 
 });
