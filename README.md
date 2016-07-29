@@ -23,7 +23,7 @@ The *fogponics.sh* shell script will run the system from the command-line. It ca
 
 ## Running the Browser
 
-This is taken from [this tutorial](https://github.com/elalemanyo/raspberry-pi-kiosk-screen). See it for instructions for more browsers 
+This is taken from [this tutorial](https://github.com/elalemanyo/raspberry-pi-kiosk-screen). See it for instructions for more browsers.
 
 1. Install the Epiphany Browser, X11 server utilities, xautomation (for automating keystrokes) and unclutter (hides the cursor)
 	```
