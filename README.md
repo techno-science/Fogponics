@@ -11,11 +11,14 @@ Using a Raspberry Pi 3 and a few other parts (listed below) this code will opera
 See these pages for how to install these libraries and for documentation.
 
 * pi-sht1x
-    * https://github.com/drohm/pi-sht1x
+    * <https://github.com/drohm/pi-sht1x>
 * Tornado
-    * http://www.tornadoweb.org/en/stable/
+    * <http://www.tornadoweb.org/en/stable/>
 * RPI-GPIO
-    * https://pypi.python.org/pypi/RPi.GPIO
+    * <https://pypi.python.org/pypi/RPi.GPIO>
+* websocket-client
+	* <https://pypi.python.org/pypi/websocket-client/0.37.0>
+	
 
 ## Running the system
 
